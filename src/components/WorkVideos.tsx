@@ -34,7 +34,7 @@ export default function WorkVideos() {
       <div className="container-site relative">
         <Reveal className="mx-auto max-w-3xl text-center">
           <p className="eyebrow text-accent">VIDEO GALLERY</p>
-          <h2 id="watch-our-work-heading" className="section-heading mt-4 text-white">Watch Our Work in Action</h2>
+          <h2 id="watch-our-work-heading" className="section-heading mt-4 !text-white">Watch Our Work in Action</h2>
           <p className="mx-auto mt-5 max-w-2xl text-base leading-relaxed text-slate-300">
             A closer look at Southern Biohazard Cleaning: professional high-pressure cleaning on site and a guided tour of our services online.
           </p>
