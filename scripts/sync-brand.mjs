@@ -8,7 +8,7 @@ const domain = (b.domain || config.contact.website || '').replace(/\/$/, '');
 const title = `${b.name} | ${b.tagline}`;
 const noindex = config.mode !== 'client-ready';
 const icon = b.logo;
-const iconType = icon.toLowerCase().endsWith('.png') ? 'image/png' : icon.toLowerCase().endsWith('.ico') ? 'image/x-icon' : 'image/svg+xml';
+const iconType = icon.toLowerCase().endsWith('.png') ? 'image/png' : icon.toLowerCase().endsWith('.webp') ? 'image/webp' : icon.toLowerCase().endsWith('.ico') ? 'image/x-icon' : 'image/svg+xml';
 const socialImage = domain && b.socialImage ? `${domain}${b.socialImage}` : '';
 const meta = `<!doctype html>
 <html lang="en-ZA">
