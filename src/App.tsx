@@ -20,7 +20,7 @@ function ServiceWorker(){useEffect(()=>{
    // Remove registrations scoped to this site while the installable app is disabled.
    const regs=await navigator.serviceWorker.getRegistrations();
    await Promise.all(regs.filter(reg=>new URL(reg.scope).origin===location.origin && new URL(reg.scope).pathname==='/').map(reg=>reg.unregister()));
-   if('caches' in window){const keys=await caches.keys();await Promise.all(keys.filter(k=>true).map(k=>caches.delete(k)));}
+   if('caches' in window){const keys=await caches.keys();await Promise.all(keys.map(k=>caches.delete(k)));}
   }catch(err){console.warn('Service worker setup:',err);}
  };run();
 },[]);return null;}
