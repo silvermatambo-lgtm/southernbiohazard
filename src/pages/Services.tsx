@@ -1,0 +1,10 @@
+import { Link } from 'react-router-dom';
+import { ArrowRight, CheckCircle2 } from 'lucide-react';
+import PageHero from '../components/PageHero';
+import FlipServices from '../components/FlipServices';
+import Reveal from '../components/Reveal';
+import { site } from '../config/site';
+export default function Services(){return <><PageHero eyebrow="WHAT WE OFFER" title="Specialist Cleaning Services" subtitle="Biohazard, postmortem and trauma cleaning, pressure washing and property maintenance support."/>
+ <FlipServices/><section className="py-20 bg-slate-50"><div className="container-site"><div className="grid lg:grid-cols-2 gap-8">{site.services.map((s,i)=><Reveal key={s.id}><article className="card-base overflow-hidden flex flex-col sm:flex-row h-full"><div className="sm:w-2/5 h-56 sm:h-auto overflow-hidden bg-slate-200"><img src={s.image} loading="lazy" alt={s.name} className="w-full h-full object-cover"/></div><div className="sm:w-3/5 p-7"><p className="eyebrow text-accent">SERVICE {String(i+1).padStart(2,'0')}</p><h2 className="font-display text-2xl font-bold mt-3">{s.name}</h2><p className="section-desc text-sm mt-3">{s.summary}</p><p className="section-desc text-sm mt-3">{s.details}</p><Link to="/contact" className="inline-flex items-center gap-2 text-accent font-bold text-sm mt-6">Enquire about this <ArrowRight size={17}/></Link></div></article></Reveal>)}</div></div></section>
+ <section className="py-20"><div className="container-site grid md:grid-cols-2 gap-10 items-center"><div><p className="eyebrow text-accent">HOW WE WORK</p><h2 className="section-heading mt-3">Your enquiry, made simple</h2><p className="section-desc mt-4">Tell us what you need. We'll work with you to clarify the requirements and agree on a practical next step.</p></div><div className="space-y-5">{['Tell us about your needs','Discuss the scope and options','Agree on the next steps'].map((item,i)=><p className="flex gap-4 items-center font-semibold" key={item}><CheckCircle2 className="text-accent" size={25}/>{i+1}. {item}</p>)}<Link to="/contact" className="btn-primary mt-2">Contact us <ArrowRight size={17}/></Link></div></div></section>
+ </>}

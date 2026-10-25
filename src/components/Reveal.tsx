@@ -1,0 +1,3 @@
+import type { ReactNode } from 'react';
+import { useInView } from '../hooks/useInView';
+export default function Reveal({children,className=''}:{children:ReactNode;className?:string}){const {ref,inView}=useInView();return <div ref={ref} className={`${className} ${inView?'animate-fade-up':'reveal-pending'}`}>{children}</div>;}

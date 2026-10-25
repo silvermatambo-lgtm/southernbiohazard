@@ -1,0 +1,182 @@
+{
+  "templateVersion": "6.0.0",
+  "mode": "client-ready",
+  "clientId": "southern-biohazard-cleaning",
+  "brand": {
+    "name": "Southern Biohazard Cleaning",
+    "shortName": "Southern Biohazard",
+    "tagline": "We clean what others won’t.",
+    "description": "Professional biohazard and trauma cleaning, postmortem cleanup, high-pressure domestic and industrial cleaning, and property support services in Cape Town, South Africa.",
+    "domain": "https://southernbiohazard.vercel.app",
+    "logo": "/brand/logo-main.webp",
+    "accent": "#9bea13",
+    "accentDark": "#5ba500",
+    "aboutIntro": "Southern Biohazard Cleaning helps households, businesses and property managers restore and maintain spaces. Our services include sensitive postmortem and trauma-scene cleaning, high-pressure cleaning, deep cleaning and property support.",
+    "mission": "To provide careful, professional cleaning and property support with dignity, respect and attention to detail.",
+    "vision": "To be a trusted choice for specialised cleaning and reliable property care across the communities we serve.",
+    "values": [
+      "Discretion and compassion",
+      "A safety-conscious approach",
+      "Dependable, thorough service"
+    ],
+    "socialImage": "/brand/van-side.webp"
+  },
+  "contact": {
+    "phone": "072 263 3533",
+    "whatsapp": "27722633533",
+    "email": "",
+    "address": "",
+    "mapEmbedUrl": "",
+    "hours": "24/7 emergency biohazard and postmortem enquiries",
+    "serviceArea": "Cape Town and surrounding areas; other South African locations by arrangement",
+    "website": "https://www.southernbiohazrdcleaning.co.za"
+  },
+  "social": {
+    "facebook": "",
+    "instagram": "",
+    "tiktok": "",
+    "linkedin": "",
+    "youtube": ""
+  },
+  "features": {
+    "pwaEnabled": true,
+    "showInstallPrompt": true,
+    "chatAssistant": true,
+    "showTestimonials": false,
+    "showGallery": true
+  },
+  "pwa": {
+    "shortName": "Southern Biohazard",
+    "cacheVersion": "v1",
+    "icon192": "/brand/icon-192.png",
+    "icon512": "/brand/icon-512.png"
+  },
+  "heroSlides": [
+    {
+      "eyebrow": "PROFESSIONAL SPECIALIST CLEANING",
+      "heading": "Southern Biohazard.",
+      "highlight": "We clean what others won’t.",
+      "description": "Biohazard, trauma and postmortem cleaning delivered with compassion and care. Contact our team for discreet assistance.",
+      "image": "/brand/van-side.webp"
+    },
+    {
+      "eyebrow": "TRAUMA & POSTMORTEM CLEANING",
+      "heading": "Sensitive situations.",
+      "highlight": "Handled with dignity.",
+      "description": "We assist with specialist scene cleaning and restoring affected spaces, with respect for every family and property.",
+      "image": "/brand/crime-scene-cleaner.webp"
+    },
+    {
+      "eyebrow": "DEEP CLEANING & DISINFECTION",
+      "heading": "From homes to industry.",
+      "highlight": "A thorough clean, every time.",
+      "description": "Domestic and industrial cleaning, high-pressure washing, property turnovers, and intensive deep-clean solutions.",
+      "image": "/brand/bathroom-cleaning.webp"
+    }
+  ],
+  "services": [
+    {
+      "id": "biohazard",
+      "name": "Biohazard & Trauma Cleaning",
+      "summary": "Specialist cleanup following traumatic events and biological contamination.",
+      "details": "Discreet cleaning of affected spaces, including deep cleaning and disinfection as appropriate. Contact us to explain the situation privately.",
+      "image": "/brand/crime-scene-cleaner.webp"
+    },
+    {
+      "id": "postmortem",
+      "name": "Postmortem & Unattended Death Cleanup",
+      "summary": "Compassionate support when a loved one has passed.",
+      "details": "Careful scene cleaning following unattended death and other postmortem situations, with a sensitive and respectful approach.",
+      "image": "/brand/room-cleaning.webp"
+    },
+    {
+      "id": "pressure",
+      "name": "Hot & Cold High-Pressure Cleaning",
+      "summary": "Pressure washing for residential and commercial surfaces.",
+      "details": "Driveways, walls, roofs, forecourts, workshops, tankers and other suitable hard surfaces. We assess the surface before selecting a cleaning method.",
+      "image": "/brand/van-side.webp"
+    },
+    {
+      "id": "domestic",
+      "name": "Domestic & Industrial Deep Cleaning",
+      "summary": "Thorough cleaning for properties, facilities and challenging spaces.",
+      "details": "Residential cleaning, industrial workspaces, high-impact cleaning, deep cleaning and odour-control enquiries.",
+      "image": "/brand/bathroom-cleaning.webp"
+    },
+    {
+      "id": "property",
+      "name": "Property Management Support",
+      "summary": "Cleaning and maintenance support for property owners and managers.",
+      "details": "Move-in/move-out cleaning, property turnover cleaning, trash-outs, waste-removal enquiries and general property support.",
+      "image": "/brand/mattress-cleaning.webp"
+    },
+    {
+      "id": "ewaste",
+      "name": "E-Waste Removal & Trash-Outs",
+      "summary": "Support with clearing unwanted items and property waste.",
+      "details": "Ask about removal of old electronics, accumulated household items and cleaning associated with property turnovers. Disposal requirements depend on material and location.",
+      "image": "/brand/van-rear.webp"
+    }
+  ],
+  "gallery": [
+    {
+      "id": "van",
+      "title": "Branded cleaning response vehicle",
+      "category": "Southern Biohazard team",
+      "image": "/brand/van-rear.webp"
+    },
+    {
+      "id": "van2",
+      "title": "Southern Biohazard service vehicle",
+      "category": "Mobile cleaning service",
+      "image": "/brand/van-side.webp"
+    },
+    {
+      "id": "safety",
+      "title": "Protective equipment in use",
+      "category": "Specialist cleaning",
+      "image": "/brand/crime-scene-cleaner.webp"
+    },
+    {
+      "id": "bath",
+      "title": "Detailed interior cleaning",
+      "category": "Intensive deep cleaning",
+      "image": "/brand/bathroom-cleaning.webp"
+    },
+    {
+      "id": "clean",
+      "title": "Property cleaning work",
+      "category": "Disinfection and restoration",
+      "image": "/brand/room-cleaning.webp"
+    },
+    {
+      "id": "bed",
+      "title": "Specialist bedroom cleaning",
+      "category": "Property care",
+      "image": "/brand/mattress-cleaning.webp"
+    }
+  ],
+  "testimonials": [],
+  "faqs": [
+    {
+      "question": "Are you available for urgent postmortem cleaning?",
+      "answer": "Our material advertises 24-hour postmortem cleaning services. Phone or WhatsApp us on 072 263 3533 to discuss immediate availability and the situation."
+    },
+    {
+      "question": "Which areas do you serve?",
+      "answer": "Cape Town and surrounding areas are our main advertised service region. Please contact us to confirm service in other parts of South Africa."
+    },
+    {
+      "question": "Do you clean driveways, roofs and workshops?",
+      "answer": "Yes. We provide domestic and industrial high-pressure cleaning for suitable driveways, roofs, walls, forecourts, workshops, tankers and more."
+    },
+    {
+      "question": "How can I request a quotation?",
+      "answer": "Call 072 263 3533, send a WhatsApp message or use the enquiry form. Share the service, location and any relevant details so we can assess the request."
+    },
+    {
+      "question": "Do you offer property move-in and move-out services?",
+      "answer": "Yes. Our property support includes move-in and move-out cleaning, property turnover cleaning and trash-outs."
+    }
+  ]
+}

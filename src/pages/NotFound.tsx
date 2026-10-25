@@ -1,0 +1,3 @@
+import { Link } from 'react-router-dom';
+import { ArrowLeft, House } from 'lucide-react';
+export default function NotFound(){return <section className="min-h-[75vh] bg-slate-950 text-white flex items-center justify-center text-center pt-24 pb-20"><div className="container-site"><House className="text-accent mx-auto" size={48}/><p className="text-accent font-bold tracking-widest mt-5">404 · PAGE NOT FOUND</p><h1 className="font-display font-bold text-4xl md:text-6xl mt-4">This page has moved.</h1><p className="text-slate-300 mt-4 max-w-lg mx-auto">The link may have changed. Please return to the homepage or use the navigation menu.</p><Link to="/" className="btn-primary mt-8"><ArrowLeft size={17}/> Back to home</Link></div></section>}
